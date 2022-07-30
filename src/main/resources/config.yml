@@ -1,0 +1,37 @@
+#################################################
+#                  BoxTempoOnline               #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo:
+  Ativar: true
+  Prefixo: '&e&lTEMPO &8»'
+
+#Configurações de conexões
+MySQL:
+  ativar: false #Caso esteja "true" será usado a conexão MySQL
+  host: 'localhost:3306'
+  database: 'database'
+  user: 'root'
+  password: ''
+
+#Mensagens gerais
+Mensagens:
+  JogadorNaoEncontrado: '&cEsse jogador não existe ou não está online no servidor.'
+  SeuTempo: '&aSeu tempo online no servidor é&7: &e{tempo}&a.'
+  TempoDoJogador: '&aO jogador &e{jogador} &aestá &e{tempo} &aonline no servidor.'
+
+#Como vai ficar no /tempo top
+Inventarios:
+  TempoTOP:
+    Nome: '&7TOP - Onlines'
+    Tempo: 5 #Tempo para atualizar o top em minutos
+    Titulo: '&6&l{jogador} &8» &c{posicao}º'
+    Lore:
+      - ''
+      - '&8☰ &fJogador: &6{jogador}'
+      - '&8☰ &fPosicao: &c{posicao}º'
+      - '&8☰ &fTempo: &e{tempo}'

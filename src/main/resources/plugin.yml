@@ -1,0 +1,7 @@
+name: BoxTempoOnline
+version: 1.0.0
+main: me.tempoonline.BoxTempoOnline
+authors: [ Stompado ]
+commands:
+  tempo:
+    aliases: [time]

@@ -1,0 +1,27 @@
+#Crie quantas recompensas quiser!
+Recompensas:
+  r1:
+    Tempo: 3 #Tempo online em minutos
+    Titulos:
+      Ativar: true
+      Titulo: '&6&lRECOMPENSA'
+      SubTitulo: '&fVocê ganhou &e100 &fde &eCoins&f!'
+    Sons:
+      Ativar: true
+      Som: 'LEVEL_UP'
+    Comandos:
+      - 'money give {jogador} 50' #Você pode usar "{jogador}, {player} e %player%" para identificar o jogador
+      - 'money give {player} 50'
+    Mensagem: '&aVocê recebeu &e100 &ade &eCoins &aao ficar &e{tempo} &aonline!'
+  r2:
+    Tempo: 10
+    Titulos:
+      Ativar: true
+      Titulo: '&6&lRECOMPENSA'
+      SubTitulo: '&fVocê ganhou &e50 &fde &eCash&f!'
+    Sons:
+      Ativar: true
+      Som: 'LEVEL_UP'
+    Comandos:
+      - 'cash add %player% 50'
+    Mensagem: '&aVocê recebeu &e50 &ade &eCash &aao ficar &e{tempo} &aonline!'
